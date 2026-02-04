@@ -33,7 +33,7 @@ function addStudent(name, age, gender, grade) {
 
     // Generate new ID 
     const newId = students.length > 0 ? Math.max(...students.map(s => s.id)) + 1 : 1;
-
+    // Create and add the new student
     const newStudent = {
         id: newId,
         name: name,
@@ -134,7 +134,7 @@ function countGrade11Students() {
     return students.filter(student => student.grade === 11).length;
 }
 
-
+// Testing the functions
 console.log("--- Initial List ---");
 console.log(getStudents());
 
