@@ -41,6 +41,7 @@ function addStudent(name, age, gender, grade) {
         gender: gender,
         grade: grade
     };
+    // Add to the list
 
     students.push(newStudent);
     console.log(`Success: Added ${name}`);
