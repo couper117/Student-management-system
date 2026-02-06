@@ -101,7 +101,7 @@ function deleteStudent(id) {
     const initialLength = students.length;
     // Filter out the student with the given ID
     students = students.filter(student => student.id !== id);
-
+    // Check if a student was deleted
     if (students.length < initialLength) {
         console.log("Student deleted successfully.");
     } else {
@@ -118,6 +118,7 @@ function getMaleStudents() {
 
 // b) Sort students by name 
 function sortStudentsByName() {
+    
    
     return [...students].sort((a, b) => a.name.localeCompare(b.name));
 }
