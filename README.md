@@ -24,6 +24,5 @@ I have recorded a short video explaining the logic behind the code, specifically
 
 
 ##  Author
-* **Name:** kenny kelvin
+ **Name:** kenny kelvin
 *** https://github.com/couper117 ***
-rtgtyrerwfhd
