@@ -1,3 +1,4 @@
+// Sorting students by age in descending order and finding the oldest student (learning exercise)
 let students = [
     { id: 1, name: "Mugisha Yvan", age: 18, gender: "male", grade: 11 },
     { id: 2, name: "Shimwa Jane", age: 17, gender: "female", grade: 10 },
