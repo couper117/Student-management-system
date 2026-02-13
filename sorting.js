@@ -7,3 +7,13 @@ let students = [
 const sorted = students.sort((a,b) => b.age - a.age);
 const oldest = sorted[0];
 console.log(oldest);
+// Function to get the oldest student
+function getOldestStudent() {  
+    if (students.length === 0) {
+        console.log("No students available.");
+        return null;
+    }
+    return students.reduce((oldest, current) => {
+        return (current.age > oldest.age) ? current : oldest;
+    });
+}
