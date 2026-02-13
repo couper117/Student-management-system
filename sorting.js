@@ -18,6 +18,3 @@ function getOldestStudent() {
     });
 }   
 // Function to count students in grade 11
-function countGrade11Students() {
-    return students.filter(student => student.grade === 11).length;
-}   
