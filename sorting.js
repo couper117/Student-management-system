@@ -16,4 +16,8 @@ function getOldestStudent() {
     return students.reduce((oldest, current) => {
         return (current.age > oldest.age) ? current : oldest;
     });
-}
+}   
+// Function to count students in grade 11
+function countGrade11Students() {
+    return students.filter(student => student.grade === 11).length;
+}   
