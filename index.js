@@ -165,3 +165,5 @@ console.log(getOldestStudent());
 
 console.log("\n--- 5d. Count Grade 11 ---");
 console.log("Count:", countGrade11Students());
+consolre.log("\n--- Final List ---");
+console.log(getStudents());
